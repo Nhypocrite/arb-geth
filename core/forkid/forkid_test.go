@@ -23,11 +23,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Nhypocrite/arb-geth/common"
+	"github.com/Nhypocrite/arb-geth/core"
+	"github.com/Nhypocrite/arb-geth/core/types"
+	"github.com/Nhypocrite/arb-geth/params"
+	"github.com/Nhypocrite/arb-geth/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

@@ -3,9 +3,9 @@ package arbitrum
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/arbitrum_types"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Nhypocrite/arb-geth/arbitrum_types"
+	"github.com/Nhypocrite/arb-geth/core"
+	"github.com/Nhypocrite/arb-geth/core/types"
 )
 
 type ArbInterface interface {

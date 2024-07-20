@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Nhypocrite/arb-geth/common"
 )
 
 // adaptation of opBlockHash that doesn't require an EVM stack

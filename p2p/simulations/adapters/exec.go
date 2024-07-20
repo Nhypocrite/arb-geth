@@ -34,12 +34,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Nhypocrite/arb-geth/internal/reexec"
+	"github.com/Nhypocrite/arb-geth/log"
+	"github.com/Nhypocrite/arb-geth/node"
+	"github.com/Nhypocrite/arb-geth/p2p"
+	"github.com/Nhypocrite/arb-geth/p2p/enode"
+	"github.com/Nhypocrite/arb-geth/rpc"
 	"github.com/gorilla/websocket"
 	"golang.org/x/exp/slog"
 )

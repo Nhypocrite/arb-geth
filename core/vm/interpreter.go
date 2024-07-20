@@ -17,11 +17,11 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Nhypocrite/arb-geth/common"
+	"github.com/Nhypocrite/arb-geth/common/math"
+	"github.com/Nhypocrite/arb-geth/core/state"
+	"github.com/Nhypocrite/arb-geth/crypto"
+	"github.com/Nhypocrite/arb-geth/log"
 )
 
 // Config are the configuration options for the Interpreter

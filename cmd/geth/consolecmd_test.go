@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Nhypocrite/arb-geth/internal/version"
+	"github.com/Nhypocrite/arb-geth/params"
 )
 
 const (

@@ -52,11 +52,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Nhypocrite/arb-geth/common"
+	"github.com/Nhypocrite/arb-geth/crypto/signify"
+	"github.com/Nhypocrite/arb-geth/internal/build"
+	"github.com/Nhypocrite/arb-geth/params"
 	"github.com/cespare/cp"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/signify"
-	"github.com/ethereum/go-ethereum/internal/build"
-	"github.com/ethereum/go-ethereum/params"
 )
 
 var (
@@ -244,8 +244,8 @@ func doInstall(cmdline []string) {
 func buildFlags(env build.Environment, staticLinking bool, buildTags []string) (flags []string) {
 	var ld []string
 	if env.Commit != "" {
-		ld = append(ld, "-X", "github.com/ethereum/go-ethereum/internal/version.gitCommit="+env.Commit)
-		ld = append(ld, "-X", "github.com/ethereum/go-ethereum/internal/version.gitDate="+env.Date)
+		ld = append(ld, "-X", "github.com/Nhypocrite/arb-geth/internal/version.gitCommit="+env.Commit)
+		ld = append(ld, "-X", "github.com/Nhypocrite/arb-geth/internal/version.gitDate="+env.Date)
 	}
 	// Strip DWARF on darwin. This used to be required for certain things,
 	// and there is no downside to this, so we just keep doing it.

@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Nhypocrite/arb-geth/common"
 )
 
 type wasmActivation struct {

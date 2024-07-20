@@ -19,10 +19,10 @@ package eth
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/Nhypocrite/arb-geth/common/bitutil"
+	"github.com/Nhypocrite/arb-geth/core/bloombits"
+	"github.com/Nhypocrite/arb-geth/core/rawdb"
+	"github.com/Nhypocrite/arb-geth/ethdb"
 )
 
 const (
